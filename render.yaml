@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: vendedor-auto
+    env: node
+    buildCommand: npm install
+    startCommand: node app.js
+    runtime: node
